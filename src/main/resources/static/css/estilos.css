@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    font-family: initial;
+    color: #e1e1e1;
+}
+
+#tituloPrincipal{
+    color: #8f53a7;
+    font-family: fantasy;
+    font-size: 29px;
+}
+
+.parrafo{
+    font-size: 20px;
+}
+
+.sub{
+    font-size: 23px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #8f53a7;
+}
+
+.contenedor1 {
+    padding: 150px;
+    text-align: center;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec1, .sec2, .sec3, .sec4{
+    flex: 1; 
+    padding: 50px; 
+    text-align: center;
+}
+
+ol {
+    list-style-position: inside;
+    background-color: #8f53a7;
+    line-height: 300%;
+}
+
+ul{
+    list-style-position: inside;
+    line-height: 300%;
+}

@@ -1,0 +1,54 @@
+.header {
+    font-family: fantasy;
+    background-color: rgba(143, 83, 167, 0.3);
+    top: 0;
+    height: 12%;
+    position: fixed;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #e1e1e1;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.logo:hover {
+    color: #8f53a7;
+    transition: 0.7s;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav-menu-link:hover {
+    background-color: #8f53a7;
+    transition: 0.7s;
+}
+
